@@ -168,7 +168,8 @@ PRODUCT_PACKAGES += \
     hostapd \
     libwpa_client \
     wpa_supplicant \
-    wpa_supplicant.conf
+    wpa_supplicant.conf \
+    wcnss_service
 
 # CAMERA
 PRODUCT_PACKAGES += \
@@ -186,7 +187,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     timekeep \
     TimeKeep \
-    thermanager \
     macaddrsetup
 
 # QCOM OSS
@@ -211,10 +211,6 @@ PRODUCT_PACKAGES += \
 # RIL
 PRODUCT_PACKAGES += \
     libprotobuf-cpp-full
-
-# ExtendedSettings
-PRODUCT_PACKAGES += \
-    ExtendedSettings
 
 # For android_filesystem_config.h
 PRODUCT_PACKAGES += \
